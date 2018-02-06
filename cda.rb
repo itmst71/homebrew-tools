@@ -12,10 +12,10 @@ class Cda < Formula
   end
 
   def caveats
-    msg = <<-EOF.undent
+    msg = <<~EOS
     Add the following line to your ~/.bashrc or ~/.zshrc file (and remember to source the file to update your current session):
 
       [[ -f "$(brew --prefix cda)/cda.sh" ]] && . "$(brew --prefix cda)/cda.sh"
-    EOF
+    EOS
   end
 end
