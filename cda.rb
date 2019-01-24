@@ -3,9 +3,9 @@ require "formula"
 class Cda < Formula
   desc "cd with an alias name"
   homepage "https://github.com/itmst71/cda"
-  url "https://github.com/itmst71/cda.git", :tag => "v1.5.0"
+  url "https://github.com/itmst71/cda.git", :tag => "v1.5.1"
   head "https://github.com/itmst71/cda.git", :branch => "master"
-  version "1.5.0"
+  version "1.5.1"
 
   def install
     prefix.install Dir['*']
